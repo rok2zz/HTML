@@ -1,0 +1,50 @@
+*{
+
+}
+/* *: 전체선택자 */
+
+/* p: 태그선택자 p말고도 가능*/
+
+/* p{
+    background-color: green;
+    color: red;
+} */
+
+
+/* . : 클래스 선택자 */
+.color-primary{
+    color: blueviolet;
+}
+
+.font-50{
+    font-size: 50px;
+}
+
+.select-style1 {
+    height: 40px;
+    font-size: 20px; 
+    color: blue;
+}
+
+/* > : 자식선택자, 바로 밑의 자식을 찾아감 */
+.tb-head>tr>td{
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.tb-body>tr>td{
+    border: 1px solid black;
+}
+
+/* id 선택자*/
+#p1 {
+    background-color: blue;
+    color: violet;
+}
+
+/*  : 하위선택자 , 자식선택자처럼 하나씩 찾아 갈 필요가 없음*/
+.tb td {
+    border: 1px solid black;
+}
